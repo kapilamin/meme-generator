@@ -1,0 +1,14 @@
+* {
+    font-family: impact;
+}
+
+.input-area {
+    display: block;
+}
+
+.valid {
+    background-color: forestgreen;
+}
+.invalid {
+    background-color: crimson;
+}

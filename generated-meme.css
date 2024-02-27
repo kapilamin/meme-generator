@@ -1,0 +1,43 @@
+* {
+    font-family: impact;
+}
+
+h1 {
+    text-align: center;
+}
+
+#meme-container {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#top-text, #bottom-text {
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    color: white;
+    font-size: 32px;
+    font-weight: 1000;
+    word-wrap: break-word;
+    
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+}
+
+#bottom-text {
+    bottom: 0px;
+}
+
+#image-choice {
+    width: 300px;
+    height: 300px;
+
+    position: absolute;
+}
